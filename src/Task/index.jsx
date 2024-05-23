@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 export default function Task() {
   return (
     <div className='Container d-flex flex-column flex-nowrap align-items-center justify-content-center '>
-        <h1>Our Latest Cases</h1>
+        <h1 className='my-4'>Our Latest Cases</h1>
         <div className='Section col-9 w-90 h-100 d-flex flex-row flex-wrap justify-content-center align-items-center row-gap-3 ms-sm-1'>
 
             <div className='Card col-xl-5 col-md-6 col-sm-9 bg-yellow p-3 m-1 bg-warning d-flex flex-column justify-content-start align-items-start rounded'>
